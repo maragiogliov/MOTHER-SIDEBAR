@@ -32,7 +32,8 @@ img{
 
    
     place-items: center;
-    overflow: hidden;
+    overflow: scroll;
+    overflow-x: hidden;
     background-color: black;
     background: linear-gradient(-45deg, #c93fff,rgb(27,57,202,1),#c93fff, rgb(27,57,202,1),#c93fff,rgb(27,57,202,1),#c93fff, rgb(27,57,202,1));
     background-size: 400% 400%;
@@ -210,6 +211,7 @@ flex-direction: column;
         height: 10rem;
         width: 100vw;
         background-color: rgba(27, 88, 202, 0.39);
+        position: fixed;
         
     }
 

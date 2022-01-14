@@ -117,6 +117,10 @@ button:hover{
 
 
 /*+++++++++++++++++++++++++++++++++++++++++++++++++ box-views ++++++++++++++ */
+
+.box-views{
+    height: 5rem;
+}
 #logo-editor-link{
     display: flex;
     flex-direction: column;
@@ -124,7 +128,7 @@ button:hover{
     align-items: center;
     background-color: #141D2D;
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
 }
 #calendar-link{
     display: flex;
@@ -204,14 +208,15 @@ flex-direction: column;
         display: flex;
         flex-direction: column;
         z-index: 1; /*Stay on top */
-        top: 50rem; /*Stay at the top */
-         left: 0;
+        top: 10rem; /*Stay at the top */
+      
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-evenly;
         height: 10rem;
         width: 100vw;
-        background-color: rgba(27, 88, 202, 0.39);
-        position: fixed;
+        background-color: rgba(255, 51, 0, 0.89);
+       
+       
         
     }
 

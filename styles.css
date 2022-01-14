@@ -140,10 +140,10 @@ width: 80%;
     justify-content: space-evenly;
     align-items: center;
     background-color: rgb(211, 211, 211,0.8);
- 
+ width: 100vw;
     height: 100vh;
     text-align: center;
-    padding: 5rem;
+    
 }
 #lessons-link{
     display: flex;

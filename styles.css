@@ -34,7 +34,7 @@ img{
     place-items: center;
     overflow: scroll;
     
-    background: linear-gradient(-45deg, #2e6d1e,rgb(27,57,202,1),#371a7cc0, rgb(27,57,202,1),#b351cc,rgb(27,57,202,1),#47863f, rgb(27,57,202,1));
+    background: linear-gradient(90deg, #2e6d1e,rgb(27,57,202,1),#371a7cc0, rgb(27,57,202,1),#b351cc,rgb(27,57,202,1),#47863f, rgb(27,57,202,1));
     background-size: 400% 400%;
     animation: gradient 15s ease infinite; 
 }
@@ -138,7 +138,7 @@ width: 80%;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgba(74, 0, 248, 0.301);
+    background-color: rgba(211, 211, 211, 0.301);
  width: 100vw;
     height: 100vh;
     text-align: center;
